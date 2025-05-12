@@ -1,14 +1,18 @@
+# UiPath-Experiment-3
+# Date:12/05/2025
+# Register No.:212224040302
+# Name: S Sesha Raghavan
 # AIM:
 To develop a UiPath workflow that takes a user’s name as input and displays a custom welcome message using a Switch case. If the input is "RAM", it should display "Welcome Mr. Ramachandran", else display different messages for each name, and a default message for other names.
 
-# SOFTWARE REQUIRED:
-```
+# Requirement:
+
 UiPath Studio (2021 or later version recommended)
 Windows Operating System
-```
+
 
 # PROCEDURE:
-```
+
 1.Open UiPath Studio and create a new Process.
 2.Inside the Main.xaml, drag and drop a Sequence activity.
 3.Add an Input Dialog activity to get the user’s name.
@@ -24,7 +28,7 @@ Windows Operating System
 13.Case "SITA" → Message Box: "Hello Sita, glad to see you!".
 14.In the Default case, Add:Message Box: "Welcome " + userName.
 15.Save and run the workflow.
-```
+
 
 # OUTPUT:
 ![image](https://github.com/user-attachments/assets/afe3bbe6-edb2-4e3d-8f3c-d700c508bd8a)
